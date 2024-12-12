@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Cecilia Marín Juárez</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-img {
+            text-align: center;
+        }
+
+        .profile-img img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #4CAF50;
+        }
+
+        h1, h2 {
+            color: #4CAF50;
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 5px 0;
+        }
+
+        .contact a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-img">
+            <img src="https://media.licdn.com/dms/image/v2/D4D03AQFObRZSSxV9pA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718652943776?e=1739404800&v=beta&t=qjORxq6xQrj65phDoJDZeuPfoFxTMdCN4TcJzGISagM" alt="Cecilia Marín Juárez">
+        </div>
+        <h1>Cecilia Marín Juárez</h1>
+        <p>Estudiante de Medicina Humana | Investigadora en Neurociencias | Apasionada por la tecnología y la ciencia</p>
+
+        <h2>Experiencia</h2>
+        <ul>
+            <li><strong>Vicepresidenta y Co-fundadora:</strong> Mission Brain BUAP (2021-2022)</li>
+            <li><strong>Miembro:</strong> Sociedad Panamericana de Estudiantes de Neurocirugía y Neurociencias (2021-2024)</li>
+            <li><strong>Co-fundadora:</strong> NanoMinds, FIAEMP, y otras asociaciones en pro de la educación y neurociencias.</li>
+        </ul>
+
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Desarrollo de proyectos educativos y científicos</li>
+            <li>Redacción técnica y académica</li>
+            <li>Capacitación en inteligencia artificial</li>
+        </ul>
+
+        <h2>Contacto</h2>
+        <p class="contact">Correo: <a href="mailto:cecilia.marin.juarez@example.com">cecilia.marin.juarez@example.com</a></p>
+    </div>
+</body>
+</html>
