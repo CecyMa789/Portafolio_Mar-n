@@ -1,0 +1,16 @@
+var app = document.getElementById('app');
+
+// Traer por su elemento por "app"
+var typewriter = new Typewriter(app, {
+    loop: true
+});
+
+typewriter.typeString('Estudiante de Medicina Humana')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('Investigadora en Neurociencias')
+    .pauseFor(2500)
+    .deleteChars(13) // Número de caracteres que se borrarán
+    .typeString('<strong>proyectos médicos!</strong>')
+    .pauseFor(2500)
+    .start();
